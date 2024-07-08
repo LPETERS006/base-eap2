@@ -1,2 +1,2 @@
-docker buildx build --platform linux/amd64,linux/arm64 --label "base-eap2(arm64,amd64)" --tag "lpeters999/base-eap2:eclipse-temurin_11-jdk-jammy" --force-rm --no-cache --push .
+docker buildx build --platform linux/amd64,linux/arm64 --label "base-eap2(arm64,amd64)" --tag "lpeters999/base-eap2:eclipse-temurin_17-jdk-jammy" --force-rm --no-cache --push .
 docker buildx build --platform linux/amd64,linux/arm64 --label "base-eap2(arm64,amd64)" --tag "lpeters999/base-eap2:latest" --force-rm --no-cache --push .
